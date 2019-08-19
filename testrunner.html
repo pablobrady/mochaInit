@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Toy Problem</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="node_modules/mocha/mocha.css" />
+  </head>
+  <body>
+    <h3 class="stdPadding">Toy Problem - Mocha Test Template Setup</h3>
+
+    <div class="stdPadding outputColors">
+      <div id="output"></div>
+    </div>
+
+    <div id="mocha"></div>
+    <script src="node_modules/mocha/mocha.js"></script>
+    <script src="node_modules/chai/chai.js"></script>
+    <script>mocha.setup('bdd')</script>
+
+    <script type="module" src="indexTest.js"></script>
+
+    <script>
+      mocha.run();
+    </script>
+
+    <style>
+      .stdPadding { margin: 10px 40px 0 40px; padding: 0 10px 0 10px; }
+      .outputColors { border: 5px solid silver; background: lemonchiffon; }
+    </style>
+  </body>
+</html>
