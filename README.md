@@ -8,7 +8,7 @@ Run with:
 
 
 --
-###MOCHA INSTALLATION
+### MOCHA INSTALLATION
 Install as a development dependency for your project:
 
 $ npm install --save-dev mocha
@@ -24,7 +24,7 @@ https://mochajs.org/#installation
 npm i --save-dev chai
 
 ---
-#####NPM COMMANDS:
+##### NPM COMMANDS:
 
 ```npm test```
 
