@@ -1,11 +1,4 @@
-# JS Toy Problem - Mocha Test
-JS Toy Problem - Mocha Test Template for NPM
-
---
-
-Run with:
- ``npm test`` or ```mocha``` from COMMAND LINE
-
+# JS Toy Problem w/ Mocha
 
 --
 ### MOCHA INSTALLATION
@@ -24,11 +17,15 @@ https://mochajs.org/#installation
 npm i --save-dev chai
 
 ---
+#### Start Testing / Problem Solving
+open http://127.0.0.1:8080/testrunner.html
+
+---
 ##### NPM COMMANDS:
 
 ```npm test```
 
-```mocha``` (npm automatically finds './node_modules/mocha/bin/mocha')
+```mocha``` (or './node_modules/mocha/bin/mocha')
 
 ---
 #### REFERENCE:

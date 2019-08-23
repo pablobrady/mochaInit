@@ -1,14 +1,8 @@
-/* ./my-module.js */
+function mySolution (param1) {
+  console.log("MySolution running...");
 
-export default function addClass (el, newClass) {
-  if(el.className.indexOf(newClass) !== -1) {
-    return;
-  }
-
-  if(el.className !== '') {
-    //ensure class names are separated by a space
-    newClass = ' ' + newClass;
-  }
-
-  el.className += newClass;
+  var a = parseInt(param1, 10);
+  var b = 2;
+  console.log("my-solution.js:  mySolution()")
+  return a + b;
 }
