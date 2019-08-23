@@ -1,4 +1,6 @@
-function mySolution (param1) {
+/* export default  required by taskrunner.html */
+
+export default function mySolution (param1) {
   console.log("MySolution running...");
 
   var a = parseInt(param1, 10);

@@ -1,6 +1,6 @@
 // Required for command line tests
-import mySolution from './my-module.js'
-var chai = require('chai'); // Only required for 'command line' testing.
+// import mySolution from './my-module.js'
+// var chai = require('chai');
 
 
 mocha.setup('bdd');

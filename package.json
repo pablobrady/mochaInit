@@ -2,9 +2,9 @@
   "name": "toy-mocha-template",
   "version": "1.0.0",
   "description": "Toy Problems with Mocha/Chai tests (via /taskrunner.html)",
-  "main": "index.js",
+  "main": "",
   "scripts": {
-    "test": "go"
+    "test": "http-server"
   },
   "repository": {
     "type": "git",
